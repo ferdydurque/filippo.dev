@@ -1,0 +1,18 @@
+# Don't add the Local settings file to the repository #
+htdocs/wp-config-local.php
+ 
+# If using SASS to compile stylesheets this saves conflicts, plus there not needed! #
+# htdocs/wp-content/themes/YOURTHEME/.sass-cache/*
+ 
+# No need to add the upgrade folder to the repo #
+htdocs/wp-content/upgrade/*
+ 
+# sitemaps not needed locally #
+htdocs/sitemap.xml
+htdocs/sitemap.xml.gz
+ 
+# no need for these #
+readme.html
+license.txt
+.log
+.DS_Store
