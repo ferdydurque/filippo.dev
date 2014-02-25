@@ -1,9 +1,9 @@
 filippo.dev
 ===========
 
-new wpworkflow
+A starter Wordpress framework with baked all the basic for Version Controlling with Git.
 
-Base on
-http://roybarber.com/version-controlling-wordpress/
+Based on:
 
-And Bones Theme.
+- Version Controlling WordPress, http://roybarber.com/version-controlling-wordpress/
+- Bones Theme, http://www.themble.com/bones.
