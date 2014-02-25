@@ -30,7 +30,7 @@ require_once( 'library/bones.php' ); // if you remove this, bones will break
 	- example custom taxonomy (like categories)
 	- example custom taxonomy (like tags)
 */
-require_once( 'library/custom-post-type.php' ); // you can disable this if you like
+//require_once( 'library/custom-post-type.php' ); // you can disable this if you like
 /*
 3. library/admin.php
 	- removing some default WordPress dashboard widgets
@@ -48,8 +48,8 @@ require_once( 'library/custom-post-type.php' ); // you can disable this if you l
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
-add_image_size( 'bones-thumb-600', 600, 150, true );
-add_image_size( 'bones-thumb-300', 300, 100, true );
+//add_image_size( 'bones-thumb-600', 600, 150, true );
+//add_image_size( 'bones-thumb-300', 300, 100, true );
 
 /*
 to add more sizes, simply copy a line from above
@@ -71,7 +71,7 @@ You can change the names and dimensions to whatever
 you like. Enjoy!
 */
 
-add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
+//add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
 
 function bones_custom_image_sizes( $sizes ) {
     return array_merge( $sizes, array(
@@ -179,5 +179,73 @@ function bones_wpsearch($form) {
 	return $form;
 } // don't remove this bracket!
 
+/************  MY ADD-ONS  *************************/
+// remove p tags on the content
+//remove_filter( 'the_content', 'wpautop' );
+
+add_action('wp_ajax_nopriv_ajax', 'ajax_callback');
+add_action('wp_ajax_ajax', 'ajax_callback');
+
+function ajax_callback() {
+  	global $wpdb;
+	extract($_POST);
+	
+	$empty = '<div id="no-content"></div>';
+	
+	$id = url_to_postid($href);		
+	
+	$debug = '$href = ' . $href . '<br/>';
+	$debug .= '$post_type = ' . $post_type . '<br/>';
+	$debug .= '$id = ' . $id . '<br/>';
+		
+	echo '<div class="alert-success">' . $debug . '</div>';
+	
+	
+	if ( $post_type == 'page' && $id != 0 ) :
+		// pages 
+		$args = array( 
+			'post_type' => $post_type
+			,'page_id' => $id
+		);
+		$query = new WP_Query($args);
+		if ($query->have_posts()) :
+			while ($query->have_posts()) : $query->the_post();
+				
+				the_content();
+			
+			endwhile;
+			wp_reset_postdata();
+		else :
+			echo $empty;
+		endif;
+	else:
+		// $id == 0 --> the page is the index of last posts ...
+		if ( $id == 0 ) $post_type = 'post';
+		// posts	
+		$args = array( 
+			'post_type' => $post_type
+			, 'post_status' => 'publish'
+			,'p' => $id
+		);
+		$query = new WP_Query($args);
+		if ($query->have_posts()) :
+			while ($query->have_posts()) : $query->the_post();
+				?>
+                <div class="post"> 
+                <?php
+				
+					the_content();
+				
+				?>
+                </div>
+                <?php		
+			endwhile;
+			wp_reset_postdata();
+		else :
+			echo $empty;
+		endif;
+	endif;
+	die();
+}
 
 ?>

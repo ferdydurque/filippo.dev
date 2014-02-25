@@ -123,10 +123,15 @@ SCRIPTS & ENQUEUEING
 // loading modernizr and jquery, and reply script
 function bones_scripts_and_styles() {
 	global $wp_styles; // call global $wp_styles variable to add conditional wrapper around ie stylesheet the WordPress way
+	
+	$production = true;
+	
+	$live = $production ? '' : '-ck'; 
+	
 	if (!is_admin()) {
 
 		// modernizr (without media query polyfill)
-		wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
+		wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min'. $live .'.js', array(), '2.5.3', false );
 
 		// register main stylesheet
 		wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
@@ -140,26 +145,47 @@ function bones_scripts_and_styles() {
 		}
 
 		//adding scripts file in the footer
-		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
+		wp_register_script( 'imagesloaded-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery.imagesloaded.min'. $live .'.js', array( 'jquery' ), '', true );
+		wp_register_script( 'transit-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery.transit-master/branch/jquery.transit'. $live .'.js', array( 'jquery' ), '', true );
+		//wp_register_script( 'history', get_stylesheet_directory_uri() . '/library/js/libs/jquery.history.js', array( 'jquery' ), '', true );
+		//wp_register_script( 'unevent', get_stylesheet_directory_uri() . '/library/js/libs/jquery.unevent.js', array( 'jquery' ), '', true );
+		
+		wp_register_script( 'touchswipe', get_stylesheet_directory_uri() . '/library/js/libs/jquery.touchSwipe.min'. $live .'.js', array( 'jquery' ), '', true );
+		//wp_register_script( 'masonry', get_stylesheet_directory_uri() . '/library/js/libs/masonry.pkgd.min'. $live .'.js', array( 'jquery' ), '', true );
+		wp_register_script( 'progress', get_stylesheet_directory_uri() . '/library/js/libs/nprogress'. $live .'.js', array( 'jquery' ), '', true );		
 
+		//wp_register_script( 'widgets-js', get_stylesheet_directory_uri() . '/library/js/widgets'. $live .'.js', array( 'jquery' ), '', true );		
+		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts'. $live .'.js', array( 'jquery' ), '', true );
+	
 		// enqueue styles and scripts
 		wp_enqueue_script( 'bones-modernizr' );
 		wp_enqueue_style( 'bones-stylesheet' );
 		wp_enqueue_style( 'bones-ie-only' );
-
+	
 		$wp_styles->add_data( 'bones-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
-
+	
 		/*
 		I recommend using a plugin to call jQuery
 		using the google cdn. That way it stays cached
 		and your site will load faster.
 		*/
 		wp_enqueue_script( 'jquery' );
+		
+		wp_enqueue_script( 'imagesloaded-js' );
+		wp_enqueue_script( 'transit-js' );
+		//wp_enqueue_script( 'history' );
+		//wp_enqueue_script( 'unevent' );
+		
+		wp_enqueue_script( 'touchswipe' );
+		wp_enqueue_script( 'weather' );
+		//wp_enqueue_script( 'masonry' );
+		wp_enqueue_script( 'progress' );
+		
+		//wp_enqueue_script( 'widgets-js' );
 		wp_enqueue_script( 'bones-js' );
 
 	}
 }
-
 /*********************
 THEME SUPPORT
 *********************/
@@ -174,6 +200,7 @@ function bones_theme_support() {
 	set_post_thumbnail_size(125, 125, true);
 
 	// wp custom background (thx to @bransonwerner for update)
+	/*
 	add_theme_support( 'custom-background',
 		array(
 		'default-image' => '',  // background image default
@@ -183,6 +210,7 @@ function bones_theme_support() {
 		'admin-preview-callback' => ''
 		)
 	);
+	*/
 
 	// rss thingy
 	add_theme_support('automatic-feed-links');
@@ -190,6 +218,7 @@ function bones_theme_support() {
 	// to add header image support go here: http://themble.com/support/adding-header-background-image-support/
 
 	// adding post format support
+	/*
 	add_theme_support( 'post-formats',
 		array(
 			'aside',             // title less blurb
@@ -203,6 +232,7 @@ function bones_theme_support() {
 			'chat'               // chat transcript
 		)
 	);
+	*/
 
 	// wp menus
 	add_theme_support( 'menus' );

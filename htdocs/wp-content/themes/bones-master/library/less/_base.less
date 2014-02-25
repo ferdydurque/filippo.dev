@@ -38,8 +38,8 @@ html, body {
 	/* height: 100%; */
 }
 body {
-	font-family: @serif;
-	font-size: 100%;
+	font-family: @sans-serif;
+	font-size: 90%;
 	line-height: 1.5;
 	color: #565656;
 }
@@ -85,13 +85,46 @@ body {
 .paged {}                         /* paged items like search results or archives */
 	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
 
+
+
+/* Loading
+----------------------------------------------- */
+#nprogress {
+	/* Make clicks pass-through */
+	pointer-events: none;
+	.bar {
+		background: @bones-blue;
+		position: fixed;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 2px;
+	}
+	/* Fancy blur effect */
+	.peg{
+		display: block;
+		position: absolute;
+		right: 0px;
+		width: 100px;
+		height: 100%;
+		box-shadow: 0 0 10px @bones-blue, 0 0 5px @bones-blue;
+		opacity: 1;
+		-webkit-transform: rotate(3deg) translate(0px, -4px);
+		  -ms-transform: rotate(3deg) translate(0px, -4px);
+		      transform: rotate(3deg) translate(0px, -4px);
+	}
+}
+
 /*********************
 03. LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 96%;
+	/*width: 96%;
 	margin: 0 auto;
+	*/
+	padding:0px 10px;
 }
 #container {}
 
@@ -141,15 +174,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	}
 }
 
+.font-included{
+	letter-spacing: 2px;
+	font-family: 'Helvel';
+	font-weight: normal;	
+}
+
 h1, .h1 {
 	font-size: 2.5em;
 	line-height: 1.333em;
+	.font-included();
 }
 
 h2, .h2 {
 	font-size: 1.75em;
 	line-height: 1.4em;
 	margin-bottom: 0.375em;
+	.font-included();
 }
 
 h3, .h3 {
@@ -173,6 +214,8 @@ h5, .h5 {
 *********************/
 
 .header {
+	background: @black;
+
 	#inner-header {}
 
 	#logo {}
@@ -205,7 +248,7 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
+	//border: 1px solid #ccc;
 	border-bottom: 0;
 
 	li {
@@ -214,8 +257,8 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: #eee;
-			border-bottom: 1px solid #ccc;
+			background-color: @black;
+			//border-bottom: 1px solid #ccc;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -756,7 +799,7 @@ and more scalable.
 		textarea {
 			padding: 3px 6px;
 			background: #efefef;
-			border: 2px solid #cecece;
+			border: 0; //1px solid #cecece;
 			line-height: 1.5em;
 
 			&:focus {
