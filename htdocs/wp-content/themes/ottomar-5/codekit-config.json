@@ -2,23 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/library\/less\/login.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/login.less",
-      "outputAbbreviatedPath" : "\/library\/css\/login.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 1,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_larger.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -29,6 +12,23 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_larger.css",
       "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/library\/less\/font-awesome-4.0.3\/less\/larger.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/larger.less",
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/larger.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
       "debugStyle" : 0
     },
     "\/library\/less\/pages\/splash.less" : {
@@ -48,6 +48,24 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/page-custom.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page-custom.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sidebar.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sidebar.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/screenshot.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -59,15 +77,6 @@
       "initialSize" : 1392,
       "fileType" : 8192
     },
-    "\/sidebar.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/library\/translation\/translation.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -76,17 +85,6 @@
       "inputAbbreviatedPath" : "\/library\/translation\/translation.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/library\/js\/widgets.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/widgets.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/widgets-ck.js",
-      "fileType" : 64
     },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_rotated-flipped.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -109,23 +107,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/library\/less\/font-awesome-4.0.3\/less\/larger.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/larger.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/larger.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 1,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/library\/less\/_481up.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/library\/less\/_481up.less",
@@ -143,6 +124,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/library\/js\/widgets.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/js\/widgets.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/library\/js\/widgets-ck.js",
+      "fileType" : 64
+    },
     "\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -152,14 +144,22 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/page-custom.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/library\/less\/login.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/login.less",
+      "outputAbbreviatedPath" : "\/library\/css\/login.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-custom.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/library\/js\/libs\/nprogress.js" : {
       "ignoreWasSetByUser" : 0,
@@ -244,15 +244,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/page-slideshow-works.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-slideshow-works.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/library\/scss\/login.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -264,6 +255,15 @@
       "outputAbbreviatedPath" : "\/library\/css\/login.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/page-slideshow-works.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page-slideshow-works.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/library\/less\/font-awesome-4.0.3\/scss\/font-awesome.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -351,17 +351,6 @@
       "initialSize" : 1216,
       "fileType" : 8192
     },
-    "\/library\/js\/widgets-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/widgets-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/widgets-ck-ck.js",
-      "fileType" : 64
-    },
     "\/library\/js\/libs\/jquery.history.uncompressed.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -371,6 +360,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.history.uncompressed-ck.js",
+      "fileType" : 64
+    },
+    "\/library\/js\/widgets-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/js\/widgets-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/library\/js\/widgets-ck-ck.js",
       "fileType" : 64
     },
     "\/library\/scss\/_grid.scss" : {
@@ -548,10 +548,10 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/library\/less\/_2x.less" : {
+    "\/library\/less\/font-awesome-4.0.3\/less\/rotated-flipped.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/_2x.less",
-      "outputAbbreviatedPath" : "\/library\/css\/_2x.css",
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/rotated-flipped.less",
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/rotated-flipped.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -565,10 +565,10 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/library\/less\/font-awesome-4.0.3\/less\/rotated-flipped.less" : {
+    "\/library\/less\/_2x.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/rotated-flipped.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/rotated-flipped.css",
+      "inputAbbreviatedPath" : "\/library\/less\/_2x.less",
+      "outputAbbreviatedPath" : "\/library\/css\/_2x.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -777,21 +777,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/comments.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/comments.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/single-custom_type.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/single-custom_type.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/comments.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/comments.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -841,6 +841,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/library\/images\/login-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/images\/login-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/library\/images\/login-logo.png",
+      "initialSize" : 7019,
+      "fileType" : 8192
+    },
     "\/library\/less\/_768up.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/library\/less\/_768up.less",
@@ -858,18 +869,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_spinning.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_spinning.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_spinning.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -881,16 +880,17 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min-ck.js",
       "fileType" : 64
     },
-    "\/library\/images\/login-logo.png" : {
+    "\/library\/less\/font-awesome-4.0.3\/scss\/_spinning.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/images\/login-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/images\/login-logo.png",
-      "initialSize" : 7019,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_spinning.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_spinning.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.js" : {
       "ignoreWasSetByUser" : 0,
@@ -929,18 +929,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_path.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_path.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_path.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_bordered-pulled.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -950,6 +938,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_bordered-pulled.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/library\/less\/font-awesome-4.0.3\/scss\/_path.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_path.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_path.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -990,6 +990,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/library\/less\/font-awesome-4.0.3\/scss\/_stacked.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_stacked.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_stacked.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_fixed-width.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1012,18 +1024,6 @@
       "outputAbbreviatedPath" : "\/library\/images\/empty.png",
       "initialSize" : 926,
       "fileType" : 8192
-    },
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_stacked.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_stacked.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_stacked.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/library\/less\/font-awesome-4.0.3\/less\/variables.less" : {
       "ieCompatibility" : 1,
@@ -1160,6 +1160,23 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.imagesloaded.min-ck.js",
       "fileType" : 64
     },
+    "\/library\/less\/font-awesome-4.0.3\/less\/core.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/core.less",
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/core.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/favicon16x16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1170,15 +1187,6 @@
       "outputAbbreviatedPath" : "\/favicon16x16.png",
       "initialSize" : 934,
       "fileType" : 8192
-    },
-    "\/library\/less\/font-awesome-4.0.3\/css\/_mixins.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_mixins.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/library\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1217,22 +1225,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/library\/less\/font-awesome-4.0.3\/less\/core.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/core.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/core.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/library\/less\/font-awesome-4.0.3\/css\/_mixins.css" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 1,
+      "ignore" : 1,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_mixins.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/library\/js\/libs\/jquery.unevent.js" : {
       "ignoreWasSetByUser" : 0,
