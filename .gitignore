@@ -1,5 +1,5 @@
 # Don't add the Local settings file to the repository #
-htdocs/wp-config-local.php
+# htdocs/wp-config-local.php
 # htdocs/wp-config.php
  
 # If using SASS to compile stylesheets this saves conflicts, plus there not needed! #
