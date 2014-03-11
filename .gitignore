@@ -1,6 +1,12 @@
 # Don't add the Local settings file to the repository #
+<<<<<<< HEAD
 # htdocs/wp-config-local.php
 # htdocs/wp-config.php
+=======
+htdocs/wp-config-local.php
+htdocs/wp-config.php
+sql/
+>>>>>>> FETCH_HEAD
  
 # If using SASS to compile stylesheets this saves conflicts, plus there not needed! #
 # htdocs/wp-content/themes/YOURTHEME/.sass-cache/*
