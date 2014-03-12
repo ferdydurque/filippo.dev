@@ -30,6 +30,7 @@ Template Name: Slideshow Works
 
  					<div class="slide">            
                         <!--<img data-caption="<?php echo $image['caption']; ?>" data-rel="<?php echo $i; ?>" src="<?php echo $i === 0 ? $image['sizes']['big'] : get_template_directory_uri() . '/library/images/empty.png' ; ?>" data-src="<?php echo $image['sizes']['big']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['sizes']['big-width']; ?>" height="<?php echo $image['sizes']['big-height']; ?>"/>-->
+<<<<<<< HEAD
                         <img class="bg" data-caption="<?php the_title(); ?>" data-rel="<?php echo $i; ?>" src="<?php echo $i === 0 ? $image['url'] : get_template_directory_uri() . '/library/images/empty.png' ; ?>" data-src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['width']; ?>" height="<?php echo $image['height']; ?>"/>
                     	
                         <?php $j = 0; foreach ( $images as $image ): /*if ( $j > 0 ) :*/ ?>
@@ -42,14 +43,22 @@ Template Name: Slideshow Works
                         	<a class="btn visit" href="<?php echo get_field('url'); ?>" target="_blank">Visit</a> 
                         </div>
 
+=======
+                        <img data-caption="<?php echo $image['caption']; ?>" data-rel="<?php echo $i; ?>" src="<?php echo $i === 0 ? $image['url'] : get_template_directory_uri() . '/library/images/empty.png' ; ?>" data-src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['width']; ?>" height="<?php echo $image['height']; ?>"/>
+                    </div>
+                    <div class="caption">              	
+>>>>>>> FETCH_HEAD
                     </div>
 
 					<?php $i++; endwhile; endif; ?>
 				
+<<<<<<< HEAD
  
 				</div>
 				<div id="caption"> 
 					      	
+=======
+>>>>>>> FETCH_HEAD
 				</div>
 
 			</div>
