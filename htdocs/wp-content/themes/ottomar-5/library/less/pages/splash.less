@@ -1,0 +1,50 @@
+
+
+.arrow_internal{
+	position:absolute;
+	width: 20px;
+	height: 37px;
+	//background-image: url(../images/arrows.png);
+	top: 50%;
+	margin-top: -18px;
+}
+.absolute{
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	position:absolute;	
+}
+@border: 26px;
+#bg-slideshow{
+	.absolute;
+	overflow:hidden;
+	border:@border solid rgba(255,255,255,0.4);
+	.slide{
+		.absolute;
+		opacity:0;
+		background-repeat:no-repeat;
+		background-size:cover;
+		//background-size: contain;
+		background-position: center;
+
+		.thumb{
+			position: absolute;
+			right: @border;
+			bottom: @border;
+			//border: 2px solid red;
+		}
+	}
+}
+#caption{
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	padding:10px @border*2 10px @border*2;
+	background: rgba(255,0,0,.8);
+	color: @white;
+	//color: @grey;
+	//font-size: 14px;
+	//line-height: 0px;
+}
+.caption{ display: none; }
