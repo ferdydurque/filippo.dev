@@ -53,54 +53,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/page-work.php" : {
-=======
-    "\/library\/less\/pages\/splash.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/pages\/splash.less",
-      "outputAbbreviatedPath" : "\/library\/less\/css\/splash.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 1,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/library\/less\/login.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/login.less",
-      "outputAbbreviatedPath" : "\/library\/css\/login.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 1,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/sidebar.php" : {
+    "\/page-slideshow-works.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar.php",
+      "inputAbbreviatedPath" : "\/page-slideshow-works.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/page-custom.php" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
+    "\/page-work.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
@@ -108,38 +70,6 @@
       "inputAbbreviatedPath" : "\/page-work.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/page-slideshow-works.php" : {
-=======
-    "\/screenshot.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/screenshot.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/screenshot.png",
-      "initialSize" : 1392,
-      "fileType" : 8192
-    },
-    "\/library\/js\/widgets.js" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "inputAbbreviatedPath" : "\/page-slideshow-works.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-=======
-      "inputAbbreviatedPath" : "\/library\/js\/widgets.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/widgets-ck.js",
-      "fileType" : 64
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     },
     "\/library\/js\/libs\/jquery.transit-master\/jquery.transit-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -164,6 +94,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/library\/less\/font-awesome-4.0.3\/less\/stacked.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/stacked.less",
@@ -181,53 +120,26 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/functions.php" : {
+    "\/library\/custom-post-type.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
+      "inputAbbreviatedPath" : "\/library\/custom-post-type.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/library\/custom-post-type.php" : {
-=======
-    "\/style.css" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "inputAbbreviatedPath" : "\/library\/custom-post-type.php",
-=======
-      "inputAbbreviatedPath" : "\/style.css",
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/scss\/_mixins.scss" : {
-=======
-    "\/404.php" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/scss\/_mixins.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/css\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
-=======
-      "inputAbbreviatedPath" : "\/404.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     },
     "\/library\/admin.php" : {
       "ignoreWasSetByUser" : 0,
@@ -312,20 +224,7 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/js\/libs\/jquery.unevent-ck.js" : {
-=======
-    "\/page-slideshow-works.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-slideshow-works.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/library\/scss\/login.scss" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
@@ -382,21 +281,16 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.transit-master\/branch\/jquery.transit-ck-ck.js",
       "fileType" : 64
     },
-    "\/library\/less\/_base.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/_base.less",
-      "outputAbbreviatedPath" : "\/library\/css\/_base.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/library\/scss\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 1,
+      "ignore" : 1,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/scss\/_print.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/library\/css\/_print.css",
+      "fileType" : 4,
       "debugStyle" : 0
     },
     "\/library\/js\/libs\/jquery.touchSwipe.min-ck.js" : {
@@ -410,69 +304,27 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.touchSwipe.min-ck-ck.js",
       "fileType" : 64
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min.js" : {
-=======
-    "\/library\/js\/widgets-ck.js" : {
+    "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/widgets-ck.js",
+      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite-ck.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/widgets-ck-ck.js",
+      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite-ck-ck.js",
       "fileType" : 64
     },
-    "\/library\/js\/libs\/jquery.history.uncompressed.js" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
+    "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min-ck.js",
-      "fileType" : 64
-    },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/library\/images\/login-logo.png" : {
-=======
-    "\/favicon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/favicon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/favicon.png",
-      "initialSize" : 1216,
-      "fileType" : 8192
-    },
-    "\/library\/scss\/_grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/scss\/_grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/css\/_grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
+      "inputAbbreviatedPath" : "\/sidebar.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/footer.php" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
+    "\/library\/images\/login-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
@@ -500,43 +352,7 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/css\/login.css" : {
-=======
-    "\/library\/scss\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/scss\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/css\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/archive.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/library\/js\/libs\/modernizr.custom.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/libs\/modernizr.custom.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/libs\/modernizr.custom.min-ck.js",
-      "fileType" : 64
-    },
-    "\/library\/scss\/_1030up.scss" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
@@ -545,28 +361,16 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker.js" : {
+    "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker.js",
+      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker-ck.js",
+      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min-ck.js",
       "fileType" : 64
-    },
-    "\/library\/scss\/_print.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/scss\/_print.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/css\/_print.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/library\/js\/libs\/jquery.transit-master\/test\/test-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -608,44 +412,39 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/sidebar.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/library\/images\/empty.png" : {
-=======
-    "\/library\/less\/font-awesome-4.0.3\/less\/rotated-flipped.less" : {
+    "\/library\/less\/_base.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/rotated-flipped.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/rotated-flipped.css",
+      "inputAbbreviatedPath" : "\/library\/less\/_base.less",
+      "outputAbbreviatedPath" : "\/library\/css\/_base.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
       "ignore" : 1,
       "strictImports" : 0,
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
+      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker-ck.js",
+      "fileType" : 64
+    },
+    "\/library\/images\/empty.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/library\/images\/empty.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/library\/images\/empty.png",
@@ -653,12 +452,6 @@
       "fileType" : 8192
     },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_mixins.scss" : {
-=======
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
@@ -670,23 +463,7 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/less\/font-awesome-4.0.3\/less\/icons.less" : {
-=======
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_variables.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/library\/less\/font-awesome-4.0.3\/less\/font-awesome.less" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/icons.less",
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/icons.css",
@@ -703,7 +480,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/less\/font-awesome-4.0.3\/scss\/_larger.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -740,12 +516,6 @@
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/library\/less\/style.less",
       "outputAbbreviatedPath" : "\/library\/css\/style.css",
-=======
-    "\/library\/less\/font-awesome-4.0.3\/less\/fixed-width.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/fixed-width.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/fixed-width.css",
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -759,26 +529,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/scss\/_768up.scss" : {
-=======
-    "\/library\/scss\/_481up.scss" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/scss\/_768up.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/css\/_768up.css",
-=======
-      "inputAbbreviatedPath" : "\/library\/scss\/_481up.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/css\/_481up.css",
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -793,22 +552,7 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.history-ck.js",
       "fileType" : 64
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/js\/libs\/nprogress.js" : {
-=======
-    "\/library\/images\/custom-post-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/images\/custom-post-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/images\/custom-post-icon.png",
-      "initialSize" : 462,
-      "fileType" : 8192
-    },
-    "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite.min.js" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
@@ -840,17 +584,10 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/less\/font-awesome-4.0.3\/less\/mixins.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/mixins.less",
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/mixins.css",
-=======
-    "\/library\/less\/font-awesome-4.0.3\/less\/spinning.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/spinning.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/spinning.css",
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -937,6 +674,17 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/masonry.pkgd.min-ck.js",
       "fileType" : 64
     },
+    "\/library\/js\/libs\/masonry.pkgd.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/js\/libs\/masonry.pkgd.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/library\/js\/libs\/masonry.pkgd-ck.js",
+      "fileType" : 64
+    },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -948,25 +696,6 @@
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_icons.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/library\/js\/libs\/masonry.pkgd.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "inputAbbreviatedPath" : "\/library\/js\/libs\/masonry.pkgd.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/libs\/masonry.pkgd-ck.js",
-      "fileType" : 64
-=======
-      "inputAbbreviatedPath" : "\/library\/images\/win8-tile-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/images\/win8-tile-icon.png",
-      "initialSize" : 1139,
-      "fileType" : 8192
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     },
     "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -986,7 +715,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 1,
@@ -1170,6 +899,23 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_core.css",
       "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/library\/less\/pages\/single.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/pages\/single.less",
+      "outputAbbreviatedPath" : "\/library\/less\/css\/single.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
       "debugStyle" : 0
     },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_stacked.scss" : {
@@ -1392,16 +1138,11 @@
       "outputAbbreviatedPath" : "\/library\/js\/widgets-ck-ck.js",
       "fileType" : 64
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/less\/font-awesome-4.0.3\/scss\/_fixed-width.scss" : {
-=======
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_bordered-pulled.scss" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_fixed-width.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
@@ -1410,21 +1151,10 @@
       "debugStyle" : 0
     },
     "\/library\/js\/libs\/modernizr.custom.min.js" : {
-=======
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_bordered-pulled.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_bordered-pulled.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_path.scss" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/js\/libs\/modernizr.custom.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
@@ -1432,35 +1162,6 @@
       "fileType" : 64
     },
     "\/page-custom.php" : {
-=======
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_path.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_path.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/library\/js\/scripts-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/scripts-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/scripts-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/library\/less\/font-awesome-4.0.3\/less\/stacked.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/less\/stacked.less",
-      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/stacked.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
@@ -1469,7 +1170,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/js\/libs\/jquery.transit-master\/branch\/jquery.transit.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1482,9 +1182,6 @@
       "fileType" : 64
     },
     "\/library\/bones.php" : {
-=======
-    "\/library\/admin.php" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
@@ -1492,6 +1189,17 @@
       "inputAbbreviatedPath" : "\/library\/bones.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/library\/js\/libs\/jquery.history-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.history-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.history-ck-ck.js",
+      "fileType" : 64
     },
     "\/favicon16x16.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1503,32 +1211,6 @@
       "outputAbbreviatedPath" : "\/favicon16x16.png",
       "initialSize" : 934,
       "fileType" : 8192
-    },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-    "\/library\/js\/libs\/jquery.history-ck.js" : {
-=======
-    "\/library\/images\/empty.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/images\/empty.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/images\/empty.png",
-      "initialSize" : 926,
-      "fileType" : 8192
-    },
-    "\/library\/less\/font-awesome-4.0.3\/scss\/_fixed-width.scss" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.history-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.history-ck-ck.js",
-      "fileType" : 64
     },
     "\/library\/js\/libs\/jquery.touchSwipe.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1577,6 +1259,23 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/library\/js\/scripts-ck.js",
       "fileType" : 64
+    },
+    "\/library\/less\/pages\/bio.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/pages\/bio.less",
+      "outputAbbreviatedPath" : "\/library\/less\/css\/bio.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/library\/js\/libs\/jquery.transit-master\/test\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1704,51 +1403,18 @@
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_list.scss",
       "outputStyle" : 0,
-=======
-      "inputAbbreviatedPath" : "\/library\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/library\/js\/scripts-ck.js",
-      "fileType" : 64
-    },
-    "\/library\/less\/font-awesome-4.0.3\/css\/_mixins.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_mixins.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/library\/less\/_print.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/library\/less\/_print.less",
-      "outputAbbreviatedPath" : "\/library\/css\/_print.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_list.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/js\/libs\/modernizr.custom.min-ck.js" : {
-=======
-    "\/single.php" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/js\/libs\/modernizr.custom.min-ck.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
@@ -1761,22 +1427,26 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/footer.php",
-=======
-      "inputAbbreviatedPath" : "\/single.php",
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/favicon16x16.png" : {
+    "\/page-bio.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/favicon16x16.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/favicon16x16.png",
-      "initialSize" : 934,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/page-bio.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/library\/images\/custom-post-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1827,43 +1497,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/search.php" : {
-=======
-    "\/library\/less\/font-awesome-4.0.3\/css\/font-awesome.min.css" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/search.php",
-=======
-      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/font-awesome.min.css",
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite.min.js" : {
-=======
-    "\/library\/css\/ie.css" : {
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
       "inputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/library\/js\/libs\/jquery.blackandwhite\/jquery.BlackAndWhite.min-ck.js",
       "fileType" : 64
-=======
-      "inputAbbreviatedPath" : "\/library\/css\/ie.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
->>>>>>> FETCH_HEAD:htdocs/wp-content/themes/ottomar-5/codekit-config.json
     },
     "\/library\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,

@@ -15,26 +15,16 @@
 	top:0px;
 	position:absolute;	
 }
-<<<<<<< HEAD
-@border: 26px;
+@border: 0px;//26px;
 #bg-slideshow{
 	.absolute;
-	overflow:hidden;
+	.noscroll;
 	border:@border solid rgba(255,255,255,0.4);
-=======
-#bg-slideshow{
-	.absolute;
-	overflow:hidden;
->>>>>>> FETCH_HEAD
 	.slide{
 		.absolute;
 		opacity:0;
 		background-repeat:no-repeat;
-<<<<<<< HEAD
-		background-size:cover;
-		//background-size: contain;
 		background-position: center;
-
 		.thumb{
 			position: absolute;
 			right: @border;
@@ -46,27 +36,25 @@
 #caption{
 	position: absolute;
 	left: 0px;
-	top: 200px;
-	padding:10px @border*2 10px @border*2;
-	background: rgba(255,0,0,.8);
-	color: @white;
-	//color: @grey;
-	//font-size: 14px;
-	//line-height: 0px;
+	top: 50%;
+	width: 480px;
+	height: 230px;
+	margin-top: -115px;
+	#int{
+		padding:10px @margin 10px @margin;
+		background: rgba(255,0,0,.8);
+		color: @white;
+		width: 480px;
+		height: 230px;
+		position: absolute;
+		left:0px;
+		top:0px;
+	}
+	#close{
+		position: absolute;
+		left: 430px;
+		top: 50%;
+		margin-top: -16px;
+	}
 }
 .caption{ display: none; }
-=======
-		//background-size:cover;
-		//background-size: contain;
-		background-position: center;
-	}
-	.caption{
-		position: absolute;
-		//right: @margin;
-		//bottom: @margin;
-		//color: @grey;
-		font-size: 14px;
-		line-height: 0px;
-	}
-}
->>>>>>> FETCH_HEAD

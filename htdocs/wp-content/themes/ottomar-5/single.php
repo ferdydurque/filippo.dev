@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 
-			<div id="content">
 
 				<div id="inner-content" class="wrap clearfix">
 
-					<div id="main" class="twelvecol first clearfix" role="main">
+					<div id="main" role="main">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -13,22 +12,28 @@
 								<header class="article-header">
 
 									<h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
-									<p class="byline vcard"><?php
-										printf( __( 'Posted <time class="updated" datetime="%1$s" pubdate>%2$s</time> by <span class="author">%3$s</span> <span class="amp">&amp;</span> filed under %4$s.', 'bonestheme' ), get_the_time( 'Y-m-j' ), get_the_time( get_option('date_format')), bones_get_the_author_posts_link(), get_the_category_list(', ') );
-									?></p>
-
 								</header>
 
 								<section class="entry-content clearfix" itemprop="articleBody">
-									<?php the_content(); ?>
+									<?php /*the_content();*/ ?>
 								</section>
 
 								<footer class="article-footer">
-									<?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
-
+									<?php /*the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' );*/ ?>
 								</footer>
 
-								<?php comments_template(); ?>
+								<?php /*comments_template();*/ ?>
+
+								<div class="text-center">
+								<?php $images = get_field('gallery'); foreach ( $images as $image ):
+
+									
+
+								?>
+		                        	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['width']; ?>" height="<?php echo $image['height']; ?>"/>
+		                        <?php endforeach; ?>
+		                        </div>
+
 
 							</article>
 
@@ -55,7 +60,5 @@
 					<?php /*get_sidebar();*/ ?>
 
 				</div>
-
-			</div>
 
 <?php get_footer(); ?>

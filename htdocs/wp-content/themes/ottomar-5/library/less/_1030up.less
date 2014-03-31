@@ -8,16 +8,37 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 ******************************************************************/
 
-@margin: 30px;
+/*********************
+GENERAL STYLES
+*********************/
+
+body {}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+@margin: 20px;
 .wrap {
 	/*max-width: 1140px;*/
 	padding:0px @margin;
 }
+
 /*********************
-HEADER STYLES
+MAIN STRUCTURE
 *********************/
-.header {
-	#inner-header{
-		.wrap;
+#container{
+	.header {
+		#inner-header {
+			.wrap;
+		}
+	}
+	#drawer{
+		header{
+		}
+	}
+	#content{
+		#main{
+			padding-top: 2*@margin;
+		}
 	}
 }

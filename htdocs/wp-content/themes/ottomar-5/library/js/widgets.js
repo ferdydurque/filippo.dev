@@ -1,6 +1,7 @@
 /* SPLASH SLIDESHOW ************************************/
 ;(function(window, $){
     window.SPLASH = {
+    	active: true,
 		index : 0,
 		_loaded : [],
 		slides: [],
@@ -16,6 +17,7 @@
 		
 		
 		init:function( controller, callbacks){
+			this.active = true;
 			this.controller = controller;
 			this.callbacks = callbacks;
 			this.n = $('.slide').length;
@@ -28,18 +30,11 @@
 			// loaded the first --> start --> load others
 			$('#bg-slideshow').imagesLoaded().done(function(){
 				var $slide = SPLASH.slides[0];
-<<<<<<< HEAD
 				var $img = $slide.find('.bg');
 				$slide.css( {'background-image': 'url(' + $img.attr('src') + ')' , 'z-index' : 0 } );
 				$img.remove();
 				SPLASH._loaded[0] = true;
 				SPLASH.rearrangeThumbs( $slide );
-=======
-				var $img = $slide.find('img');
-				$slide.css( {'background-image': 'url(' + $img.attr('src') + ')' , 'z-index' : 0 } );
-				$slide.empty();
-				SPLASH._loaded[0] = true;
->>>>>>> FETCH_HEAD
 				SPLASH.loadImages();			
 			});			
 			// resize
@@ -47,37 +42,29 @@
 			// key nav
 			$(document).on( 'keydown', this.onKeyPress );
 			this.onResize();
+
+			//$('#bg-slideshow').transition({rotateY:25, rotateX:25, rotateZ: 35 }, 277 , 'linear')
+			//$('#bg-slideshow').transition({ perspective: 100 }, 1000 , 'linear')
 		}
 		,loadImages: function(){
 			// load all the other images
 			for ( var i=1; i<this.n; i++ ){
 				this._loaded[i] = false;
 				var $slide = this.slides[i];
-<<<<<<< HEAD
 				var $img = $slide.find('.bg');
-=======
-				var $img = $slide.find('img');
->>>>>>> FETCH_HEAD
 				$img.attr('src', $img.attr('data-src'));				
 				$slide.imagesLoaded().done( function( img ){
 					var ind = parseInt( $(img).attr('data-rel'), 10 );
 					var $slide = SPLASH.slides[ind];
-<<<<<<< HEAD
 					var $img = $slide.find('.bg');
 					$slide.css( {'background-image': 'url(' + $img.attr('src') + ')' , 'z-index' : ind, opacity: 0 } );
 					$img.remove();
 					SPLASH.rearrangeThumbs( $slide );
-=======
-					var $img = $slide.find('img');
-					$slide.css( {'background-image': 'url(' + $img.attr('src') + ')' , 'z-index' : ind, opacity: 0 } );
-					$slide.empty();
->>>>>>> FETCH_HEAD
 					SPLASH._loaded[ind] = true;
 				});
 			}
 			this.start();
 		}
-<<<<<<< HEAD
 		,rearrangeThumbs: function( $slide ){
 			$slide.find('.thumb').each( function(i,el){
 				$(this).attr('src', $(this).attr('data-src'));
@@ -110,8 +97,6 @@
 			}, 1000 );
 			$slide.data('interval', id)
 		}
-=======
->>>>>>> FETCH_HEAD
 		,start:function(){
 			if ( this.callbacks.onReady ){
 				this.controller[this.callbacks.onReady]();
@@ -135,6 +120,8 @@
 				//Default is 75px, set to 0 for demo so any distance triggers swipe
 				 threshold: 10
 			  });
+
+			this.initCaption()
 		}
 		,next: function(){
 			var i = SPLASH.index + 1;
@@ -151,6 +138,7 @@
 			SPLASH.setImage( i, -1 );
 		}
 		,setImage: function( i, inc ){
+			if ( ! this.active ) return;
 			clearTimeout( this.timeout );
 			if ( this._loaded[i] ){
 				var j = this.n;
@@ -169,10 +157,7 @@
 						// below top actual slide
 						$slide.css( {'z-index': this.n - 1 } );
 						$slide.css({opacity:1}); 
-<<<<<<< HEAD
 						this.moveThumbs($slide, false );
-=======
->>>>>>> FETCH_HEAD
 					}
 					else{
 						//$slide.transitionStop();
@@ -182,21 +167,30 @@
 				}
 				$slide = this.slides[i];			
 				$slide.transition({opacity: 1 }, this.timeTransition, 'easeOutQuad');
-<<<<<<< HEAD
 				this.moveThumbs($slide, true );
-=======
->>>>>>> FETCH_HEAD
 				this.index = i;
 				this.setCaption();				
 			}
 			this.timeout = setTimeout( this.next, this.time + this.timeTransition );
 		}
 		,setCaption: function(){
-<<<<<<< HEAD
-			$('#caption').html( this.slides[this.index].find('.caption').html() );
-=======
-			$('#caption').html( this.captions[this.index] );
->>>>>>> FETCH_HEAD
+			$('#caption #int').html( this.slides[this.index].find('.caption').html() );
+		}
+		,initCaption: function(){
+			var $cl = $('#caption #close');
+			$cl.data('x', $cl.position().left)
+			$cl.click( function(e){
+				var $vent = $('#caption #int');
+				var toclose = $vent.position().left == 0;
+				$vent.transition({x: toclose ? - $vent.outerWidth() : 0 }, 377, 'easeOutQuad' );
+				$(this).transition({x: toclose ? - $cl.data('x') + 20 : 0, delay: 77 }, 377, 'easeOutQuad' );
+				if ( toclose ){
+					$(this).find('.icon').addClass('invert skew');
+				}
+				else{
+					$(this).find('.icon').removeClass('invert skew');
+				}
+			}); 
 		}
 		,onKeyPress: function(e){
 			if ( e.keyCode === 39 ){
@@ -209,24 +203,25 @@
 			}
 		}
 		,onResize: function( ){
-			var w = $(window).width();
-<<<<<<< HEAD
+			var w = $(window).width();//-$('#content').position().left;
 			var h = $(window).height();
 			var border = parseInt( $('#bg-slideshow').css('border-width'), 10 ); 
 			if ( $('#wpadminbar').length > 0 ) h -= $('#wpadminbar').height();
-			console.log( border )
 			$('#bg-slideshow').width(w-border*2);
 			$('#bg-slideshow').height(h-border*2);
 			$('.slide').width(w-border*2);
 			$('.slide').height(h-border*2);				
-=======
-			var h = $(window).height()
-			$('#bg-slideshow').width(w);
-			$('#bg-slideshow').height(h);
-			$('.slide').width(w);
-			$('.slide').height(h);				
->>>>>>> FETCH_HEAD
-		} 
+			$('.slide').css({'background-position': h < 1040 ? 'top center' : 'center center' }); 
+		},end:function(){
+			this.active = false;
+
+			clearTimeout( this.timeout );
+			// resize
+			$(window).off( 'resize', this.onResize );
+			// key nav
+			$(document).off( 'keydown', this.onKeyPress );
+
+		}
 	};
 	
 })(this, jQuery);
@@ -581,7 +576,3 @@
 	};
 	
 })(this, jQuery);
-<<<<<<< HEAD
-=======
-
->>>>>>> FETCH_HEAD
