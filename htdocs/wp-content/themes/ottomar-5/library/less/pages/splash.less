@@ -15,23 +15,46 @@
 	top:0px;
 	position:absolute;	
 }
+@border: 26px;
 #bg-slideshow{
 	.absolute;
 	overflow:hidden;
+	border:@border solid rgba(255,255,255,0.4);
 	.slide{
 		.absolute;
 		opacity:0;
 		background-repeat:no-repeat;
-		//background-size:cover;
-		//background-size: contain;
 		background-position: center;
-	}
-	.caption{
-		position: absolute;
-		//right: @margin;
-		//bottom: @margin;
-		//color: @grey;
-		font-size: 14px;
-		line-height: 0px;
+		.thumb{
+			position: absolute;
+			right: @border;
+			bottom: @border;
+			//border: 2px solid red;
+		}
 	}
 }
+#caption{
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	width: 480px;
+	height: 230px;
+	margin-top: -115px;
+	#int{
+		padding:10px @border*2 10px @border*2;
+		background: rgba(255,0,0,.8);
+		color: @white;
+		width: 480px;
+		height: 230px;
+		position: absolute;
+		left:0px;
+		top:0px;
+	}
+	#close{
+		position: absolute;
+		left: 430px;
+		top: 50%;
+		margin-top: -16px;
+	}
+}
+.caption{ display: none; }

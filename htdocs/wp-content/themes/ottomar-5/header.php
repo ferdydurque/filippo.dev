@@ -45,7 +45,7 @@
 
 			<header class="header" role="banner">
 
-				<div id="inner-header" class="wrap clearfix">
+				<div id="inner-header" class="clearfix">
 
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_gravatar('filippo@filippodellacasa.com', 64 ); ?>" class="gravatar"></a>
 

@@ -162,6 +162,16 @@ USAGE: .border-radius(4px);
           border-radius: @radius;
 }
 
+.rotate (@angle: 180deg ){
+	/* Safari */
+	-webkit-transform: rotate(@angle);
+	/* Firefox */
+	-moz-transform: rotate(@angle);
+	/* IE */
+	-ms-transform: rotate(@angle);
+	/* Opera */
+	-o-transform: rotate(@angle);
+}
 
 /*********************
 TRANISTION
@@ -214,35 +224,66 @@ BUTTONS
 *********************/
 
 .button, .button:visited, .btn {
-	//border: 1px solid darken(@bones-pink, 13%);
-	//border-top-color: darken(@bones-pink, 7%);
-	//border-left-color: darken(@bones-pink, 7%);
-	border:0;
+	padding: 10px 40px;
+	color: @white !important;
 	padding: 5px 20px;
 	color: @white;
 	display: inline-block;
 	font-size: 12px;
+	letter-spacing: 1px;
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
-	//text-shadow: 0 1px rgba(0,0,0, .75);
 	cursor: pointer;
 	margin-bottom: 20px;
 	line-height: 21px;
-	background: @bones-blue;
+	border: 2px solid @white;
+	.text-center;
 	.transition();
-	//.border-radius(4px);
-	//.css-gradient(@bones-pink,darken(@bones-pink, 5%));
-
 	&:hover, &:focus {
-		color: @white;
-	  	//border: 1px solid darken(@bones-pink, 13%);
-	  	//border-top-color: darken(@bones-pink, 20%);
-	 	//border-left-color: darken(@bones-pink, 20%);
-		//.css-gradient(darken(@bones-pink, 5%),darken(@bones-pink, 10%));
+		color: red !important;
+		background: @white;
 	}
 	
 	&:active {
 		//.css-gradient(darken(@bones-pink, 5%),@bones-pink);
 	}	
 }
+
+
+.fa{
+	&.right{
+		margin-left: 10px;
+	}
+	&.right{
+		margin-right: 10px;
+	}
+}
+.icon{
+	display: inline-block;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	color: @white;
+	border: 2px solid @white;
+	line-height: 30px;
+	.text-center;
+	.border-radius(16px);
+	.transition();
+	&:hover{
+		color: red;
+		background: @white;
+	}
+	&.invert{
+		color: red;
+		border: 2px solid red;
+		&:hover{
+			background: red;
+			color: @white;
+		}
+	}
+}
+.skew{
+	.rotate(180deg);
+}
+
