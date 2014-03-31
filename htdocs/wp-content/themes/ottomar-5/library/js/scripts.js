@@ -8,7 +8,6 @@ this file will be called automatically in the footer so as not to
 slow the page load.
 
 */
-
 // IE8 ployfill for GetComputed Style (for Responsive Script below)
 if (!window.getComputedStyle) {
 	window.getComputedStyle = function(el, pseudo) {
@@ -285,7 +284,7 @@ var FDC = {};
 		// AJAX *******************************************************************************/		
 		,initAjax: function(){	
 			if ( !this.is_ajax ) return;
-			$('a.ajax, li.menu-item a').click(function(e){
+			$('a.ajax, li.menu-item ajax').click(function(e){
 				e.preventDefault();
 				var href = $(this).attr('href');
 				var State = History.getState();
