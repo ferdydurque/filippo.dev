@@ -1,21 +1,32 @@
-			<footer class="footer" role="contentinfo">
+<?php if ( isset($_GET["ajaxreq"]) ) : ?>
 
-				<div id="inner-footer" class="wrap clearfix">
+			</div> <!-- content -->
+		</div><!-- container -->
 
-					<nav role="navigation">
-							<?php /*bones_footer_links();*/ ?>
-					</nav>
+<?php else: ?>
 
-					<!--<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>-->
+			</div> <!-- content -->
 
-				</div>
+				<footer class="footer" role="contentinfo">
 
-			</footer>
+					<div id="inner-footer" class="wrap clearfix">
 
-		</div>
+						<nav role="navigation">
+								<?php /*bones_footer_links();*/ ?>
+						</nav>
+
+						<!--<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>-->
+
+					</div>
+
+				</footer>
+
+		</div><!-- container -->
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
+
+<?php endif; ?>
 
 	</body>
 

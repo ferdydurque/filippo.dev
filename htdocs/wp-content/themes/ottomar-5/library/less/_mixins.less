@@ -58,6 +58,7 @@ http://0to255.com/
 @black:             #000;
 @white:             #fff;
 
+@font-color: 		#565656;
 @bones-pink:        #f01d4f;
 @bones-blue:        #1990db;
 
@@ -262,6 +263,7 @@ BUTTONS
 .icon{
 	display: inline-block;
 	cursor: pointer;
+<<<<<<< HEAD
 	width: 32px;
 	height: 32px;
 	color: @white;
@@ -283,6 +285,32 @@ BUTTONS
 		}
 	}
 }
+=======
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	.text-center;
+	//.border-radius(18px);
+	.transition();
+	&:hover{
+		color: @link-color;
+		//color: @white;
+		//background: @black;
+	}
+	&.invert{
+		//color: red;
+		//border: 2px solid red;
+		&:hover{
+			//background: red;
+			//color: @white;
+		}
+	}
+}
+a .icon{
+	color: @font-color;
+}
+>>>>>>> FETCH_HEAD
 .skew{
 	.rotate(180deg);
 }

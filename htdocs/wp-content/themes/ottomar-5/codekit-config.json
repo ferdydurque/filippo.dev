@@ -129,12 +129,20 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+<<<<<<< HEAD
     "\/library\/scss\/_base.scss" : {
+=======
+    "\/library\/scss\/_mixins.scss" : {
+>>>>>>> FETCH_HEAD
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/library\/scss\/_base.scss",
+=======
+      "inputAbbreviatedPath" : "\/library\/scss\/_mixins.scss",
+>>>>>>> FETCH_HEAD
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/css\/_base.css",
@@ -426,7 +434,11 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/library\/css\/login.css",
+<<<<<<< HEAD
       "outputAbbreviatedPath" : "No Output Path",
+=======
+      "outputAbbreviatedPath" : "\/No Output Path",
+>>>>>>> FETCH_HEAD
       "fileType" : 16
     },
     "\/library\/js\/libs\/jquery.blackandwhite\/BnWWorker.js" : {
@@ -688,7 +700,23 @@
       "outputAbbreviatedPath" : "\/library\/js\/libs\/masonry.pkgd-ck.js",
       "fileType" : 64
     },
+<<<<<<< HEAD
     "\/index.php" : {
+=======
+    "\/library\/less\/font-awesome-4.0.3\/scss\/_icons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/scss\/_icons.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_icons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/library\/js\/libs\/jquery.transit-master\/jquery.transit.min-ck.js" : {
+>>>>>>> FETCH_HEAD
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
@@ -704,7 +732,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 1,
@@ -899,6 +927,23 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/library\/less\/font-awesome-4.0.3\/css\/_core.css",
       "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/library\/less\/pages\/single.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/pages\/single.less",
+      "outputAbbreviatedPath" : "\/library\/less\/css\/single.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
       "debugStyle" : 0
     },
     "\/library\/less\/font-awesome-4.0.3\/scss\/_stacked.scss" : {
@@ -1243,6 +1288,23 @@
       "outputAbbreviatedPath" : "\/library\/js\/scripts-ck.js",
       "fileType" : 64
     },
+    "\/library\/less\/pages\/bio.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/library\/less\/pages\/bio.less",
+      "outputAbbreviatedPath" : "\/library\/less\/css\/bio.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 1,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/library\/js\/libs\/jquery.transit-master\/test\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1396,11 +1458,27 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+<<<<<<< HEAD
+    "\/single.php" : {
+=======
+    "\/page-bio.php" : {
+>>>>>>> FETCH_HEAD
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
+=======
+      "inputAbbreviatedPath" : "\/page-bio.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/single.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+>>>>>>> FETCH_HEAD
       "inputAbbreviatedPath" : "\/single.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048

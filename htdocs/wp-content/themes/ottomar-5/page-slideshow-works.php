@@ -5,7 +5,7 @@ Template Name: Slideshow Works
 ?>
 <?php get_header(); ?>
 
-			<div id="content">
+			<div id="inner-content">
 
                 <div id="bg-slideshow">
                 
@@ -53,5 +53,4 @@ Template Name: Slideshow Works
 				</div>
 
 			</div>
-
 <?php get_footer(); ?>

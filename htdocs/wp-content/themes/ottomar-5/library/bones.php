@@ -147,7 +147,7 @@ function bones_scripts_and_styles() {
 		//adding scripts file in the footer
 		wp_register_script( 'imagesloaded-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery.imagesloaded.min'. $live .'.js', array( 'jquery' ), '', true );
 		wp_register_script( 'transit-js', get_stylesheet_directory_uri() . '/library/js/libs/jquery.transit-master/branch/jquery.transit'. $live .'.js', array( 'jquery' ), '', true );
-		//wp_register_script( 'history', get_stylesheet_directory_uri() . '/library/js/libs/jquery.history.js', array( 'jquery' ), '', true );
+		wp_register_script( 'history', get_stylesheet_directory_uri() . '/library/js/libs/jquery.history.js', array( 'jquery' ), '', true );
 		//wp_register_script( 'unevent', get_stylesheet_directory_uri() . '/library/js/libs/jquery.unevent.js', array( 'jquery' ), '', true );
 		
 		wp_register_script( 'touchswipe', get_stylesheet_directory_uri() . '/library/js/libs/jquery.touchSwipe.min'. $live .'.js', array( 'jquery' ), '', true );
@@ -173,7 +173,7 @@ function bones_scripts_and_styles() {
 		
 		wp_enqueue_script( 'imagesloaded-js' );
 		wp_enqueue_script( 'transit-js' );
-		//wp_enqueue_script( 'history' );
+		wp_enqueue_script( 'history' );
 		//wp_enqueue_script( 'unevent' );
 		
 		wp_enqueue_script( 'touchswipe' );

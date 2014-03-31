@@ -1,6 +1,7 @@
 /* SPLASH SLIDESHOW ************************************/
 ;(function(window, $){
     window.SPLASH = {
+    	active: true,
 		index : 0,
 		_loaded : [],
 		slides: [],
@@ -16,6 +17,7 @@
 		
 		
 		init:function( controller, callbacks){
+			this.active = true;
 			this.controller = controller;
 			this.callbacks = callbacks;
 			this.n = $('.slide').length;
@@ -42,7 +44,11 @@
 			this.onResize();
 
 			//$('#bg-slideshow').transition({rotateY:25, rotateX:25, rotateZ: 35 }, 277 , 'linear')
+<<<<<<< HEAD
 			$('#bg-slideshow').transition({ perspective: 100 }, 1000 , 'linear')
+=======
+			//$('#bg-slideshow').transition({ perspective: 100 }, 1000 , 'linear')
+>>>>>>> FETCH_HEAD
 		}
 		,loadImages: function(){
 			// load all the other images
@@ -136,6 +142,7 @@
 			SPLASH.setImage( i, -1 );
 		}
 		,setImage: function( i, inc ){
+			if ( ! this.active ) return;
 			clearTimeout( this.timeout );
 			if ( this._loaded[i] ){
 				var j = this.n;
@@ -200,7 +207,11 @@
 			}
 		}
 		,onResize: function( ){
+<<<<<<< HEAD
 			var w = $(window).width();
+=======
+			var w = $(window).width();//-$('#content').position().left;
+>>>>>>> FETCH_HEAD
 			var h = $(window).height();
 			var border = parseInt( $('#bg-slideshow').css('border-width'), 10 ); 
 			if ( $('#wpadminbar').length > 0 ) h -= $('#wpadminbar').height();
@@ -209,7 +220,20 @@
 			$('.slide').width(w-border*2);
 			$('.slide').height(h-border*2);				
 			$('.slide').css({'background-position': h < 1040 ? 'top center' : 'center center' }); 
+<<<<<<< HEAD
 		} 
+=======
+		},end:function(){
+			this.active = false;
+
+			clearTimeout( this.timeout );
+			// resize
+			$(window).off( 'resize', this.onResize );
+			// key nav
+			$(document).off( 'keydown', this.onKeyPress );
+
+		}
+>>>>>>> FETCH_HEAD
 	};
 	
 })(this, jQuery);
