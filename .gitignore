@@ -1,7 +1,6 @@
 # Don't add the Local settings file to the repository #
 htdocs/wp-config-local.php
 htdocs/wp-config.php
-htdocs/wp-content/themes/ottomar-5/codekit-config.json
  
 # If using SASS to compile stylesheets this saves conflicts, plus there not needed! #
 # htdocs/wp-content/themes/YOURTHEME/.sass-cache/*
